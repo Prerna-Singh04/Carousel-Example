@@ -1,0 +1,68 @@
+body{
+    background-color: #1e2a2e;
+}
+.carousel_text{
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 130px;
+    border-bottom: 1px dotted;
+}
+.hotstar_image_elem{
+    display: flex;
+}
+
+.carousel_image_section{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow_btn{
+    z-index: 1;
+    border: none;
+    opacity: 0.8;
+    padding: 12px;
+    height: 230px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 0px;
+    position: absolute;
+    transition: transform .2s;
+    background-image: linear-gradient(to bottom, #cad3dc, rgb(105, 95, 95), #0d1112);
+}
+
+.prev_btn{
+    left: 0px;
+}
+.next_btn{
+    right: 0px;
+}
+
+.next_btn:hover, .prev_btn:hover{
+    height: 200px;
+    color: Black;
+    font-size: 15px;
+    transform: scale(1.5);
+    padding: 12px 12px 0px 22px;
+    background: rgb(193, 189, 191);
+    background: radial-gradient(circle, rgb(227, 220, 223) 0%, rgb(22, 30, 39) 100%);
+}
+.next_btn:hover{
+    padding: 12px 19px 0px 12px;
+}
+
+.carousel_image{
+    height: 300px;
+    transition: transform .2s;
+}
+
+.carousel_image:hover{
+    height: 300px;
+    background: none;
+    transform: scale(1.5);
+}
+
